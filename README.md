@@ -2,23 +2,6 @@
 
 A comprehensive funeral services website providing essential items and services for final rites. Built with Next.js 15 and MongoDB Atlas cloud database.
 
-## 📸 Screenshots
-
-<div align="center">
-  <table>
-    <tr>
-      <td><img src="https://github.com/user-attachments/assets/register-page.png" width="200" alt="Register Page"/><br><em>Registration Page</em></td>
-      <td><img src="https://github.com/user-attachments/assets/products-page.png" width="200" alt="Products Page"/><br><em>Products Catalog</em></td>
-      <td><img src="https://github.com/user-attachments/assets/packages-page.png" width="200" alt="Packages Page"/><br><em>Package Deals</em></td>
-    </tr>
-    <tr>
-      <td><img src="https://github.com/user-attachments/assets/home-page.png" width="200" alt="Home Page"/><br><em>Home Page</em></td>
-      <td><img src="https://github.com/user-attachments/assets/login-page.png" width="200" alt="Login Page"/><br><em>Login Page</em></td>
-      <td></td>
-    </tr>
-  </table>
-</div>
-
 ## 🌟 Features
 
 - **User Authentication** - Registration, login, JWT-based auth, Google OAuth
@@ -219,8 +202,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Anurag Tiwari**
-- GitHub: [@AnuragTiwari1508](https://github.com/AnuragTiwari1508)
-- Email: tiwarianurag342407@gmail.com
+- GitHub: [@parimeena404](https://github.com/parimeena404)
+- Email: parimeena404@gmail.com
 
 ## 🙏 Acknowledgments
 
