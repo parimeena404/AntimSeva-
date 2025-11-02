@@ -1,0 +1,67 @@
+# VERCEL ENVIRONMENT VARIABLES - PRODUCTION DEPLOYMENT
+
+## Core Database (REQUIRED)
+MONGODB_URI=mongodb+srv://tiwarianurag342407:asdfghjkl123A@antim-seva.jfmmpb3.mongodb.net/?retryWrites=true&w=majority&appName=Antim-Seva
+
+## JWT Security (REQUIRED)
+JWT_SECRET=dhansetu_super_secret_jwt_key_2025_make_it_very_long_and_secure_for_production
+JWT_EXPIRES_IN=24h
+
+## Google OAuth (WORKING - ALREADY CONFIGURED)
+NEXT_PUBLIC_GOOGLE_CLIENT_ID=799085827945-5p3d9ckpuoim2chq5o7c9dd63l3sse9c.apps.googleusercontent.com
+GOOGLE_CLIENT_ID=799085827945-5p3d9ckpuoim2chq5o7c9dd63l3sse9c.apps.googleusercontent.com
+
+## Site URLs (UPDATE WITH YOUR VERCEL DOMAIN)
+NEXT_PUBLIC_SITE_URL=https://your-domain.vercel.app
+NEXT_PUBLIC_BASE_URL=https://your-domain.vercel.app
+FRONTEND_URL=https://your-domain.vercel.app
+
+## Payment Integration (ACTIVE RAZORPAY KEYS)
+RAZORPAY_KEY_ID=rzp_test_lEQBZ5fwEMtoMF
+RAZORPAY_KEY_SECRET=3pji6G59oKXkDtKLSjn5IGMR
+RAZORPAY_WEBHOOK_SECRET=dhansetu_razorpay_webhook_secret_2025
+
+## Email Configuration (ACTIVE GMAIL SMTP)
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=tiwarianurag342407@gmail.com
+SMTP_PASS=iwah godq nkfe sqqd
+
+## Environment Settings
+NODE_ENV=production
+
+## Security & Session
+SESSION_SECRET=dhansetu_session_secret_2025
+BCRYPT_ROUNDS=12
+WEBHOOK_SECRET=dhansetu_webhook_secret_2025_make_it_secure
+
+## Feature Flags
+ENABLE_FIAT_CONVERSION=true
+ENABLE_SUBSCRIPTIONS=true
+ENABLE_WEBHOOKS=true
+ENABLE_EMAIL_NOTIFICATIONS=true
+
+## Monitoring
+LOG_LEVEL=info
+
+## API Rate Limiting
+RATE_LIMIT_WINDOW_MS=900000
+RATE_LIMIT_MAX_REQUESTS=100
+
+## File Upload
+MAX_FILE_SIZE=10485760
+
+## BLOCKCHAIN (Optional - for future crypto features)
+ETHEREUM_RPC_URL=https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161
+POLYGON_RPC_URL=https://polygon-rpc.com
+
+# ====================================================
+# INSTRUCTIONS FOR VERCEL DEPLOYMENT:
+# ====================================================
+# 1. Go to your Vercel project dashboard
+# 2. Navigate to Settings > Environment Variables
+# 3. Add each variable above (one by one)
+# 4. Set Environment: Production, Preview, Development (all three)
+# 5. Save and redeploy
+# 6. Test MongoDB connection at: /api/test/db
+# ====================================================
